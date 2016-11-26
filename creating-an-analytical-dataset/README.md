@@ -92,7 +92,7 @@ Personal notes based on Udacity's course "Creating an analysical dataset".
   - mLab [https://mlab.com/home](https://mlab.com/home)
     - Import downloaded input file (companies.json) to new MongoDB collection;
     - mongoimport -h ds111188.mlab.com:11188 -d gl-data-analysis -c startups -u <user> -p <password> --file <input file>;
-    - Download speed took **44 seconds**; In Seoul, South Korea where I am my internet download speed is (75 Mbps = 9.375 MB/s) on average;
+    - Download speed took **44 seconds**; In Seoul, South Korea where my internet connection speed is (75 Mbps = 9.375 MB/s) on average;
 ```zsh
 $ mongoimport -h ds111188.mlab.com:11188 -d gl-data-analysis -c startups -u <dbuser> -p <dbuser_pwd> --file companies.json
 2016-11-26T18:00:51.867+0900	connected to: ds111188.mlab.com:11188
@@ -116,6 +116,11 @@ $ mongoimport -h ds111188.mlab.com:11188 -d gl-data-analysis -c startups -u <dbu
 ```
   - Outcome on mLab.
 ![screen shot 2016-11-26 at 6 05 25 pm](https://cloud.githubusercontent.com/assets/16644017/20639309/f4f0d5c8-b402-11e6-9e40-72477439dc88.png)
-  
-  
+  - Importing collection(startups) on MongoDB(mlab.com) to Alteryx. I've used the **MongoDB Input** connector built in to Alteryx's tools. 
+![capture](https://cloud.githubusercontent.com/assets/16644017/20640150/ff3190c4-b419-11e6-98cc-a6c5a3e7a5be.JPG)
+  - Some general execution information:
+    - Records found: 18801
+    - Fetch time: 12:43 minutes.
+![time-lapsed](https://cloud.githubusercontent.com/assets/16644017/20640242/bf59b312-b41b-11e6-893c-477e195b5722.JPG)
+
 
