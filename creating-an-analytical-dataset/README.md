@@ -4,7 +4,7 @@ Personal notes based on Udacity's course "Creating an analysical dataset".
 
 General Info
 ===
-## This steps and guidelines are based on Udacity's course
+- This steps and guidelines are based on Udacity's course;
 - Name of the course: Building High Conversion Web Forms;
 - Link to the course: [https://classroom.udacity.com/courses/ud977/](https://classroom.udacity.com/courses/ud977/);
 
@@ -80,4 +80,18 @@ Reference in [input-dataset-from-database](./input-dataset-from-database)
 
 #### (from Web-based source):
 Reference in [input-dataset-from-web-based-sources](./input-dataset-from-web-based-sources)
+
+4. Recognize structural issues:
+===
+![screen shot 2016-11-26 at 9 59 29 pm](https://cloud.githubusercontent.com/assets/16644017/20640536/a5f53970-b423-11e6-9ec9-79cb06e769ac.png)
+####Strings
+Strings are any combination of characters, alpha-numeric including symbols. Some examples can be an address field, a state code, an open-ended survey response or a product description.
+####Numeric
+Numeric data are numbers which can be whole numbers such as integers or numbers with decimal places. Some examples are sales in dollars, population in a trade area around a store or the age of a person.
+####Date/Time
+Date/time data can contain a specific date or a combination of both date and time. This data can be really handy for calculating the number of minutes between a caller reporting a problem and its resolution.
+####Boolean
+The Boolean type is sometimes also called a Logical type and is a conditional flag representing either true or false.
+Special Objects
+Special objects which can be objects such as images, maps, report objects, and sound files to name a few examples.
 
