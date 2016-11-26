@@ -3,11 +3,11 @@ Personal notes based on Udacity's course "Creating an analysical dataset".
 
 ### General Info
 ------
-#### This steps and guidelines are based on Udacity's course
+## This steps and guidelines are based on Udacity's course
 - Name of the course: Building High Conversion Web Forms;
 - Link to the course: [https://classroom.udacity.com/courses/ud977/](https://classroom.udacity.com/courses/ud977/);
 
-### What I've learned:
+## What I've learned:
 ------
 1. The most common sources of data;
 2. The different ways data are structured and why it matters;
@@ -15,12 +15,13 @@ Personal notes based on Udacity's course "Creating an analysical dataset".
 4. Recognize structural issues;
 5. Optimize the field types to fit the data;
 
-### Environment:
+## Environment:
 -------
 - OS:
   - macOS Sierra 10.12.1;
+  - Windows 10 Pro;
 - Analytical Tool:
-  - Alteryx only has .exe downloadable files for its Desktop version. So I'm using the web version.
+  - Alteryx Designer x64 (Trial Version - 14days)
   - Alteryx Cloud Share [https://use.cloudshare.com/Ent/Enterprise/index.aspx](https://use.cloudshare.com/Ent/Enterprise/index.aspx);
 ![screen shot 2016-11-26 at 4 35 02 pm](https://cloud.githubusercontent.com/assets/16644017/20638860/537ff0d6-b3f6-11e6-9c71-c23cf4e1739e.png)
 
@@ -119,8 +120,9 @@ $ mongoimport -h ds111188.mlab.com:11188 -d gl-data-analysis -c startups -u <dbu
   - Importing collection(startups) on MongoDB(mlab.com) to Alteryx. I've used the **MongoDB Input** connector built in to Alteryx's tools. 
 ![capture](https://cloud.githubusercontent.com/assets/16644017/20640150/ff3190c4-b419-11e6-98cc-a6c5a3e7a5be.JPG)
   - Some general execution information:
-    - Records found: 18801
-    - Fetch time: 12:43 minutes.
+    - Records found: 18801;
+    - Fetch time: 12:43 minutes:
+    
 ![time-lapsed](https://cloud.githubusercontent.com/assets/16644017/20640242/bf59b312-b41b-11e6-893c-477e195b5722.JPG)
 
 
