@@ -1,22 +1,23 @@
-# Creating an Analytical Dataset
+Creating an Analytical Dataset
+===
 Personal notes based on Udacity's course "Creating an analysical dataset".
 
-### General Info
-------
+General Info
+===
 ## This steps and guidelines are based on Udacity's course
 - Name of the course: Building High Conversion Web Forms;
 - Link to the course: [https://classroom.udacity.com/courses/ud977/](https://classroom.udacity.com/courses/ud977/);
 
-## What I've learned:
-------
+What I've learned:
+===
 1. The most common sources of data;
 2. The different ways data are structured and why it matters;
 3. Input a dataset into Alteryx;
 4. Recognize structural issues;
 5. Optimize the field types to fit the data;
 
-## Environment:
--------
+Environment:
+===
 - OS:
   - macOS Sierra 10.12.1;
   - Windows 10 Pro;
@@ -25,8 +26,8 @@ Personal notes based on Udacity's course "Creating an analysical dataset".
   - Alteryx Cloud Share [https://use.cloudshare.com/Ent/Enterprise/index.aspx](https://use.cloudshare.com/Ent/Enterprise/index.aspx);
 ![screen shot 2016-11-26 at 4 35 02 pm](https://cloud.githubusercontent.com/assets/16644017/20638860/537ff0d6-b3f6-11e6-9c71-c23cf4e1739e.png)
 
-### 1. Most common sources of data:
---------
+1. Most common sources of data:
+===
 ![screen shot 2016-11-26 at 4 14 50 pm](https://cloud.githubusercontent.com/assets/16644017/20638762/919d57e4-b3f3-11e6-8855-b97d3974908f.png)
 - Transactional data:
   - E.g. Recorded at the supermarket for every purchase;
@@ -35,8 +36,8 @@ Personal notes based on Udacity's course "Creating an analysical dataset".
 - Collected data:
   - E.g. Weather, census, flight data, and etc.
   
-### 2. Different ways data are structured and why it matters:
---------
+2. Different ways data are structured and why it matters:
+===
 - Structured:
   - Typically organized into **columns** and **rows** like in a spreadsheet;
   - Interchangeable terminology: **Column (Fields) X Rows (Records)**;
@@ -69,8 +70,8 @@ Personal notes based on Udacity's course "Creating an analysical dataset".
 </Catalog>
 ```
 
-### 3a. Input a dataset into Alteryx:
---------
+3. Input a dataset into Alteryx:
+===
 #### (from File):
 Reference in [input-dataset-from-file](./input-dataset-from-file)
 
