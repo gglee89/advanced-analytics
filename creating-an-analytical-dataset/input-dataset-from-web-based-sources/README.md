@@ -19,7 +19,7 @@ Exercise
 - Scrape the page [http://www.alteryx.com/ace-program](http://www.alteryx.com/ace-program) and output the results to a CSV file with no delimiter (Delimiter is \0) and where the first row does not contain the field names.
 
 #### Workflow on Alteryx (Scrape the page content on Alteryx)
-![csv-output-workflow](https://cloud.githubusercontent.com/assets/16644017/20640453/9b2a090a-b421-11e6-80ee-33d3162a118b.JPG)
+![csv-output-workflow](https://cloud.githubusercontent.com/assets/16644017/20640495/8523f4f8-b422-11e6-9376-9421c3328d23.JPG)
 
 #### CSV Output
 ![csv-output](https://cloud.githubusercontent.com/assets/16644017/20640461/d0f2c57c-b421-11e6-8642-506229278c12.JPG)
