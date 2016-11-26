@@ -36,7 +36,6 @@ Personal notes based on Udacity's course "Creating an analysical dataset".
   
 ### 2. Different ways data are structured and why it matters:
 --------
-![screen shot 2016-11-26 at 4 14 50 pm](https://cloud.githubusercontent.com/assets/16644017/20638831/31344578-b3f5-11e6-907c-b76f99b21a0f.png)
 - Structured:
   - Typically organized into **columns** and **rows** like in a spreadsheet;
   - Interchangeable terminology: **Column (Fields) X Rows (Records)**;
@@ -88,8 +87,34 @@ Personal notes based on Udacity's course "Creating an analysical dataset".
 ### 3b. Input a dataset into Alteryx (from Database);
 --------
 - For this example I will use the following websites to assist my DB connection:
-  - mlab
-  - [http://jsonstudio.com/resources/](http://jsonstudio.com/resources/) to generate me a JSON dataset;
+  - Import preset JSON file (companies.zip - 14.8MB compressed) from [http://jsonstudio.com/resources/](http://jsonstudio.com/resources/);
+  - mLab [https://mlab.com/home](https://mlab.com/home)
+    - Import downloaded input file (companies.json) to new MongoDB collection;
+    - mongoimport -h ds111188.mlab.com:11188 -d gl-data-analysis -c startups -u <user> -p <password> --file <input file>;
+    - Download speed took **44 seconds**;
+```zsh
+$ mongoimport -h ds111188.mlab.com:11188 -d gl-data-analysis -c startups -u <dbuser> -p <dbuser_pwd> --file companies.json
+2016-11-26T18:00:51.867+0900	connected to: ds111188.mlab.com:11188
+2016-11-26T18:00:52.699+0900	[###.....................] gl-data-analysis.startups	9.39MB/74.6MB (12.6%)
+2016-11-26T18:00:55.701+0900	[###.....................] gl-data-analysis.startups	9.39MB/74.6MB (12.6%)
+2016-11-26T18:00:58.701+0900	[###.....................] gl-data-analysis.startups	9.39MB/74.6MB (12.6%)
+2016-11-26T18:01:01.699+0900	[###.....................] gl-data-analysis.startups	9.39MB/74.6MB (12.6%)
+2016-11-26T18:01:04.697+0900	[####....................] gl-data-analysis.startups	14.8MB/74.6MB (19.8%)
+2016-11-26T18:01:07.696+0900	[######..................] gl-data-analysis.startups	19.3MB/74.6MB (25.8%)
+2016-11-26T18:01:10.700+0900	[########................] gl-data-analysis.startups	26.6MB/74.6MB (35.6%)
+2016-11-26T18:01:13.696+0900	[###########.............] gl-data-analysis.startups	37.0MB/74.6MB (49.6%)
+2016-11-26T18:01:16.701+0900	[##############..........] gl-data-analysis.startups	43.9MB/74.6MB (58.9%)
+2016-11-26T18:01:19.699+0900	[################........] gl-data-analysis.startups	50.9MB/74.6MB (68.2%)
+2016-11-26T18:01:22.696+0900	[##################......] gl-data-analysis.startups	57.8MB/74.6MB (77.5%)
+2016-11-26T18:01:25.697+0900	[####################....] gl-data-analysis.startups	65.3MB/74.6MB (87.5%)
+2016-11-26T18:01:28.700+0900	[####################....] gl-data-analysis.startups	65.3MB/74.6MB (87.5%)
+2016-11-26T18:01:31.701+0900	[######################..] gl-data-analysis.startups	68.8MB/74.6MB (92.1%)
+2016-11-26T18:01:34.700+0900	[########################] gl-data-analysis.startups	74.6MB/74.6MB (100.0%)
+2016-11-26T18:01:35.952+0900	[########################] gl-data-analysis.startups	74.6MB/74.6MB (100.0%)
+2016-11-26T18:01:35.952+0900	imported 18801 documents
+```
+  - Outcome on mLab.
+![screen shot 2016-11-26 at 6 05 25 pm](https://cloud.githubusercontent.com/assets/16644017/20639309/f4f0d5c8-b402-11e6-9e40-72477439dc88.png)
   
   
 
