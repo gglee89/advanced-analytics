@@ -7,6 +7,9 @@
 2. Use the Download Tool (under connectors) to Download the contents of the specified URL;
 3. Use the Browse tool to **so we can view the data that comes out**;
 
+#### Alteryx Web-Based sources workflow
+![alteryx-workflow-web-based](https://cloud.githubusercontent.com/assets/16644017/20640385/d9cc2776-b41f-11e6-9357-ce47a04f303f.JPG)
+
 #### Result
 ![web-scraping](https://cloud.githubusercontent.com/assets/16644017/20640376/9b4b95a4-b41f-11e6-9c7e-41c18c3d644d.JPG)
 
