@@ -1,3 +1,6 @@
+Input Dataset from File
+===
+
 ![screen shot 2016-11-26 at 4 39 07 pm](https://cloud.githubusercontent.com/assets/16644017/20638878/e28e5e70-b3f6-11e6-8155-ddb4914d0b69.png)
 - **(Scenario example 1:)** Our Marketing department wants to know the customers that are in *Denver*:
   - In total there are 2,669 customers in the CSV file;
