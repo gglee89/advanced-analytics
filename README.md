@@ -43,7 +43,19 @@ Advanced Analytics
 - Coefficient of Determination (r-squared)
   - We evaluate our dataset to identify the **percent of variance that is explained by the model.**
   - Closer to 1(one) - The "variance" is explained by the model.
+  - When Above .7(70%) - The variance in the data is considered good and explained by the model.
+  - When between .3(30%) and .5(50%) - The variance in the data is considered okay.
+  - When below .3(30%) - The variance in the data is considered as week and not explained by the model.
   - Zero(0) - The "variance" in the data is not explained by the model.
 ![screen shot 2016-11-26 at 2 27 36 pm](https://cloud.githubusercontent.com/assets/16644017/20638237/862277c8-b3e4-11e6-9be4-b448d987c795.png)
-  
+- Example #1:
+![screen shot 2016-11-26 at 2 44 21 pm](https://cloud.githubusercontent.com/assets/16644017/20638306/dbe7ef9c-b3e6-11e6-9123-2fa6a13ceb2c.png)
+  - a. Based on the r-squared value, how strong is this model?
+    - Using Excel or Google Spreadsheet's correl function the answer is **0.8867**
+    - **0.8867** is considered good as is above .7(70%)
+    - We can consider the data to have a strong positive correlation.
+  - b. Using the regression results, how many tickets per week could we expect from a new client with 525 employees?
+    - Using Excel or Google Spreadsheet's linear regreesion calculation method (i.e. slope and y-intercept);
+    - The linear regression equation is y = 0.181736 * x - 7.54648;
+    - With this equation we can predict, through the model, that a new client with 525 employees will have about **87.8648** rounding to approximately 88 tickets/week.
 
