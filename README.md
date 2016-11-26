@@ -32,3 +32,18 @@ Advanced Analytics
   - Non-Binary. More than 2 possible categorical outcomes.
     - Small, Medium, Large;
     - Pay on time, default, or late;
+
+### Linear Regression Validation
+- Correlation Validation
+  - We evaluate our dataset to point out if it has good correlation (either positive or negative)
+  - Closer to 1(one) - Strong positive correlation;
+  - (0)Zero - No correlation;
+  - Closer to -1(minus one) - Strong negative correlation;
+![screen shot 2016-11-26 at 12 21 58 am](https://cloud.githubusercontent.com/assets/16644017/20629365/7f174ee8-b36e-11e6-8d9d-187b7bca90b3.png)
+- Coefficient of Determination (r-squared)
+  - We evaluate our dataset to identify the **percent of variance that is explained by the model.**
+  - Closer to 1(one) - The "variance" is explained by the model.
+  - Zero(0) - The "variance" in the data is not explained by the model.
+![screen shot 2016-11-26 at 2 27 36 pm](https://cloud.githubusercontent.com/assets/16644017/20638237/862277c8-b3e4-11e6-9be4-b448d987c795.png)
+  
+
