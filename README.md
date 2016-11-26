@@ -51,11 +51,16 @@ Advanced Analytics
 - Example #1:
 ![screen shot 2016-11-26 at 2 44 21 pm](https://cloud.githubusercontent.com/assets/16644017/20638306/dbe7ef9c-b3e6-11e6-9123-2fa6a13ceb2c.png)
   - a. Based on the r-squared value, how strong is this model?
-    - Using Excel or Google Spreadsheet's correl function the answer is **0.8867**
-    - **0.8867** is considered good as is above .7(70%)
+    - Using Excel or Google Spreadsheet's RSQ function the answer is **0.7862**
+    - **0.7862** is considered good as is above .7(70%).
     - We can consider the data to have a strong positive correlation.
   - b. Using the regression results, how many tickets per week could we expect from a new client with 525 employees?
     - Using Excel or Google Spreadsheet's linear regreesion calculation method (i.e. slope and y-intercept);
     - The linear regression equation is y = 0.181736 * x - 7.54648;
     - With this equation we can predict, through the model, that a new client with 525 employees will have about **87.8648** rounding to approximately 88 tickets/week.
 
+### Multi-linear Regression (Using more data to strength the correlation coefficient)
+- Transition from Linear to Multi-linear model:
+![screen shot 2016-11-26 at 3 56 30 pm](https://cloud.githubusercontent.com/assets/16644017/20638671/f78d5688-b3f0-11e6-9c76-36e9cb113b20.png)
+- Adding one more variable (Value of contract) this is how the equation will be:
+![screen shot 2016-11-26 at 3 57 37 pm](https://cloud.githubusercontent.com/assets/16644017/20638676/2fc85c50-b3f1-11e6-914e-3a766ea4bdcb.png)
