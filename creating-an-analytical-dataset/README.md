@@ -92,7 +92,7 @@ Personal notes based on Udacity's course "Creating an analysical dataset".
   - mLab [https://mlab.com/home](https://mlab.com/home)
     - Import downloaded input file (companies.json) to new MongoDB collection;
     - mongoimport -h ds111188.mlab.com:11188 -d gl-data-analysis -c startups -u <user> -p <password> --file <input file>;
-    - Download speed took **44 seconds**;
+    - Download speed took **44 seconds**; In Seoul, South Korea where I am my internet download speed is (75 Mbps = 9.375 MB/s) on average;
 ```zsh
 $ mongoimport -h ds111188.mlab.com:11188 -d gl-data-analysis -c startups -u <dbuser> -p <dbuser_pwd> --file companies.json
 2016-11-26T18:00:51.867+0900	connected to: ds111188.mlab.com:11188
