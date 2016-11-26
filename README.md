@@ -64,3 +64,12 @@ Advanced Analytics
 ![screen shot 2016-11-26 at 3 56 30 pm](https://cloud.githubusercontent.com/assets/16644017/20638671/f78d5688-b3f0-11e6-9c76-36e9cb113b20.png)
 - Adding one more variable (Value of contract) this is how the equation will be:
 ![screen shot 2016-11-26 at 3 57 37 pm](https://cloud.githubusercontent.com/assets/16644017/20638676/2fc85c50-b3f1-11e6-914e-3a766ea4bdcb.png)
+
+#### Simple example
+- Using Excel Data Analysis Toolpak.
+- Running Regression analysis we have the following result:
+![screen shot 2016-11-26 at 11 48 02 pm](https://cloud.githubusercontent.com/assets/16644017/20641074/09ed73ca-b433-11e6-898e-087775bfb620.png)
+- So according with the following scenario:
+  - What would the model predict for the number of tickets for a customer with 750 employees and a contract of $13,000?
+  - The correct answer is **61 (sixty-one)**.
+  - Because using the Coefficients we have the formula: **NO.of Ticket = -24.26671247 + 0.101907277 x NO.of Employees + 0.00066845 x Value of Contract**
