@@ -69,12 +69,14 @@ Personal notes based on Udacity's course "Creating an analysical dataset".
 </Catalog>
 ```
 
-### 3a. Input a dataset into Alteryx (from File);
+### 3a. Input a dataset into Alteryx:
 --------
+#### (from File):
 Reference in [input-dataset-from-file](./input-dataset-from-file)
 
-### 3b. Input a dataset into Alteryx (from Database);
---------
+#### (from Database):
 Reference in [input-dataset-from-database](./input-dataset-from-database)
 
+#### (from Web-based source):
+Reference in [input-dataset-from-web-based-sources](./input-dataset-from-web-based-sources)
 
