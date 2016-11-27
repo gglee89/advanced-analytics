@@ -75,3 +75,21 @@ Advanced Analytics
   - Because using the Coefficients we have the formula: **NO.of Ticket = -24.26671247 + 0.101907277 x NO.of Employees + 0.00066845 x Value of Contract**
 
 >"Using both predictor variables, in this example, resulted in a better model with a higher level of correlation
+
+### Multi-linear regression with Categorial variable (Transforming categorial variables)
+**** Using Dummy Variables:
+- Now we didn't create a variable for northeast. That’s because the equation needs a baseline value that is not coded into a dummy variable. If a state is in the northeast, then the value for all three of the dummy variables would be zero. You always create one less dummy variable than the number of categories to make sure that one category is represented by zero values for the dummy variables. That one category, in this case the northeast region, becomes the category that others are compared to.
+**** Bad Example:
+![screen shot 2016-11-27 at 3 33 52 pm](https://cloud.githubusercontent.com/assets/16644017/20646095/f2264f12-b4b6-11e6-8cda-ad4262788fc1.png)
+- Region is a categorical variable with four values: **west, midwest, northeast, and southeast**. You assign them the numbers **1, 2, 3, and 4** respectively, and run the model.
+- (Formula) *Expenditures = -530 + 0.073 Avg_Income + 1406.36 Pct_Under_18 + 6.53 region*
+- **The problem here is that:** The coefficient on region implies that for every increase in one region, the state spends about $6.52 more per pupil. Now this one doesn't make logical sense. There was no logical order in the numbers, and this format doesn't allow us to take into account enough of the variation among regions.
+- i.e. We're assuming that all regions are being seen as one, instead of individually.
+
+**** Good Example:
+![screen shot 2016-11-27 at 4 22 41 pm](https://cloud.githubusercontent.com/assets/16644017/20646515/c15ef60c-b4bd-11e6-9135-da5c549a6df3.png)
+- Each of the variables takes on a value of either 1 or 0. If the state is in the southeast, then the value for the southeast variable would be 1 while the other two variables would be zero.
+- Basic example:
+  - (Formula) *School exp = -468 + (0.067 x avg income) + (1349 x pct under 18) - (14.4 x midwest) - (9.3 x southeast) + (16.5 x west)*
+  - What is the school's predicted expenditure in a state with an average income of $4,011, with the pop % under 18 of 32.5%, and is in the region 1(northeast)?
+  - The answer is **342.91**
