@@ -73,3 +73,5 @@ Advanced Analytics
   - What would the model predict for the number of tickets for a customer with 750 employees and a contract of $13,000?
   - The correct answer is **61 (sixty-one)**.
   - Because using the Coefficients we have the formula: **NO.of Ticket = -24.26671247 + 0.101907277 x NO.of Employees + 0.00066845 x Value of Contract**
+
+>"Using both predictor variables, in this example, resulted in a better model with a higher level of correlation
